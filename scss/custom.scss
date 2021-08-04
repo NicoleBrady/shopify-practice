@@ -1,10 +1,6 @@
-$color-red: red;
-$color-green: green;
-$color-blue: blue;
-
-.site-header,
-.site-header__mobile-nav, 
-body {
-    // background-color: $color-blue;
-    // color: $color-red;
+.grid__item.medium-up--one-whole .article__grid-image-wrapper,
+.grid__item.medium-up--one-whole .article__grid-image {
+    // width: 100%!important;
+    max-width: unset!important;
+    max-height: unset!important;
 }
